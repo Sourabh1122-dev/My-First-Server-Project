@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> BMI CALCULATOR </title>
+
+    <style>
+
+          #name {
+            color: green;
+            background-color: white;
+            text-align: left;
+          }
+
+
+                #main {
+                  color: green;
+                  background-color: white;
+                  font-size: 4em;
+                  text-align: center;
+                }
+
+          button{
+            color: red;
+          }
+
+          body{
+            background-color: khaki;
+            text-align: center;
+          }
+
+          h3{
+            text-align: left;
+          }
+
+          p{
+            text-align: left;
+          }
+    </style>
+
+  </head>
+  <body>
+
+    <h1 id="main"> Welcome To BMI Calculating Section </h1>
+    <h2> Please Enter your Details Here: </h2>
+    <form action="/" method="post">
+      <input type="text" name="num1" placeholder=" Height (in meters) ">
+      <input type="text" name="num2" placeholder=" Weight (in Kilograms) ">
+      <button type="submit" name="submit"> Compute BMI </button>
+    </form>
+    <h1 id="name"> BMI Categories: </h1>
+    <h3> BMI<18.5 </h3>
+    <p> Implies You are Under Weight </p>
+    <h3> 18.5<=BMI<25 </h3>
+    <p> Implies You are Normal Weight </p>
+    <h3> 25<=BMI<30 </h3>
+    <p> Implies You are Over Weight </p>
+    <h3> BMI>30 </h3>
+    <p> Implies Obesity </p>
+  </body>
+</html>
